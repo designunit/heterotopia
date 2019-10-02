@@ -1,0 +1,43 @@
+{
+    "name": "heterotopia",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "next start",
+        "dev": "next",
+        "build": "next build",
+        "lint": "tslint -c tslint.json 'src/**/*.ts'",
+        "test": "jest --forceExit --coverage --verbose"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.15",
+        "mobile-detect": "^1.4.3",
+        "next": "^9.0.7",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-media": "^1.9.2",
+        "react-ratio": "^0.1.5"
+    },
+    "devDependencies": {
+        "@types/enzyme": "^3.10.3",
+        "@types/jest": "^24.0.17",
+        "@types/lodash": "^4.14.136",
+        "@types/node": "^12.6.8",
+        "@types/react": "^16.8.23",
+        "@zeit/next-css": "^1.0.1",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0",
+        "jest": "^24.9.0",
+        "jest-environment-enzyme": "^7.1.0",
+        "jest-enzyme": "^7.1.0",
+        "ts-jest": "^24.0.2",
+        "tslint": "^5.19.0",
+        "tslint-react": "^4.1.0",
+        "tslint-react-hooks": "^2.2.1",
+        "typescript": "^3.6.3"
+    }
+}
