@@ -17,6 +17,7 @@ const Page: NextPage = () => {
             <h1>
                 Heterotopia
             </h1>
+            <p>тут будем пробывать писать</p>
         </Layout>
     )
 }
