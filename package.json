@@ -22,7 +22,8 @@
         "react-iframe": "^1.8.0",
         "react-image": "^2.2.0",
         "react-media": "^1.9.2",
-        "react-ratio": "^0.1.5"
+        "react-ratio": "^0.1.5",
+        "typograf": "^6.8.2"
     },
     "devDependencies": {
         "@types/enzyme": "^3.10.3",
