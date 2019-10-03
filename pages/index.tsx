@@ -5,8 +5,8 @@ import Head from 'next/head'
 import { Layout } from '../src/components/Layout'
 import { WideBlock } from '../src/components/WideBlock'
 
-// const Typograf = require('typograf')
-// const tp = new Typograf({ locale: ['ru', 'en-US'] })
+const Typograf = require('typograf')
+const tp = new Typograf({ locale: ['ru', 'en-US'] })
 
 const Page: NextPage = () => {
     return (
