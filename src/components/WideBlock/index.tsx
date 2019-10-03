@@ -12,6 +12,8 @@ export const WideBlock: React.FC<IWideBlockProps> = props => (
                 width: 100vw;
                 margin-left: -50vw;
                 left: 50%;
+
+                overflow-x: hidden;
             }
         `}</style>
 

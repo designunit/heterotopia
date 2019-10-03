@@ -14,6 +14,15 @@ export default class MyApp extends App {
                     #__next {
                         height: 100%;
                     }
+
+                    body {
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    iframe {
+                        overflow: hidden;
+                    }
                 `}</style>
 
                 <Component {...pageProps} />

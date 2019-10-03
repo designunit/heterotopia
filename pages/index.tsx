@@ -61,12 +61,17 @@ const Page: NextPage = () => {
                 </title>
             </Head>
 
-            <WideBlock>
+            <WideBlock
+                style={{
+                    marginTop: 150,
+                }}
+            >
                 <iframe
                     src={'https://tmshv.github.io/popcode/heterotopia/'}
                     width={'100%'}
                     height={'500px'}
                     frameBorder={'no'}
+                    scrolling={'no'}
                 />
             </WideBlock>
 
