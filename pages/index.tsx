@@ -34,13 +34,14 @@ const Page: NextPage = () => {
             }
             ul {
                 list-style: none;
-                margin-left: 0;
+                margin-left: 3em;
                 padding-left: 0;
+                text-indent: -3em;
                 }
 
             li:before {
                 content: "/";
-                padding-right: 5px;
+                padding-right: 1em;
                 }
             b {
                 margin: 2px;
